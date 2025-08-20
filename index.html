@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+  <title>Isabella de Santos Porn Tape</title>
+  <style>
+    * {
+      font-family: Sans-Serif;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: black;
+      margin: 0;
+      padding: 0;
+    }
+
+    .app-container {
+      display: none;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .nav-bar {
+      width: 100%;
+      height: 8vh;
+      background-color: black;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+      position: fixed;
+      top: 0;
+      z-index: 9998;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-title {
+      color: white;
+      font-size: 4vh;
+      font-weight: 800;
+      margin-left: 8vw;
+    }
+
+    #banner-image {
+      width: 100%;
+      height: 26vh;
+      position: absolute;
+      z-index: 1;
+      background-size: cover;
+      background-position: center;
+      transition: background-image 0.5s ease-in-out; /* Smooth transition between images */
+    }
+
+    .banner-loader {
+      width: 100%;
+      height: 26vh;
+      margin-top: 8vh;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .loader {
+      border: 8px solid #f3f3f3;
+      border-top: 8px solid #3498db;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+      margin: 100px auto;
+    }
+
+    .profile-container {
+      display: flex;
+      flex-direction: row;
+      padding: 2vh 1vw 0 1vw;
+    }
+
+    .profile-picture {
+      flex: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .profile-picture-img {
+      width: 35vw;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(200, 200, 200, 0.5);
+    }
+
+    .profile-information {
+      flex: 60%;
+      display: flex;
+      flex-direction: column;
+      gap: 0.8vh;
+      padding-left: 5vw;
+    }
+
+    .label {
+      color: #4285F4;
+      font-size: 2.5vh;
+      font-weight: 700;
+    }
+
+    .label-value {
+      color: white;
+    }
+
+    .profile-bio {
+      padding: 2vh;
+    }
+
+    .profile-bio-info {
+      color: white;
+      font-size: 2vh;
+      font-weight: 500;
+    }
+
+    .latest-video {
+      background-color: #34A853;
+      display: flex;
+      justify-content: center;
+    }
+
+    .latest-video-title {
+      color: white;
+      font-size: 5vh;
+      font-weight: 800;
+    }
+
+    .latest-video-banner {
+      width: 100%;
+      height: 32vh;
+      background-size: cover;
+      background-position: center;
+      background-image: url('https://x.uuu.cam/pics/hardx/isabella-de-santos/some-cowgirl-mobi-porno/isabella-de-santos-5.jpg');
+      display: flex;
+      flex-direction: column;
+    }
+
+    .latest-video-label {
+      width: fit-content;
+      color: brown;
+      background-color: white;
+      padding: 1vw 2vw 1vw 2vw;
+      font-size: 3vh;
+      font-weight: 700;
+      margin: 20vh 0 0 5vw;
+      border-radius: 10px 0 10px 0;
+    }
+
+    .latest-video-action {
+      width: fit-content;
+      color: white;
+      background-color: #EA4335;
+      padding: 1vw 2vw 1vw 2vw;
+      font-size: 2vh;
+      font-weight: 600;
+      text-decoration: underline;
+      margin: 0 0 0 5vw;
+      border-radius: 0 0 10px 0;
+    }
+
+    .watch-now {
+      animation: blinker 1s linear infinite;
+    }
+
+    .popular-video {
+      border-top: 0.5vh solid white;
+      border-bottom: 0.5vh solid white;
+      display: flex;
+      justify-content: center;
+      margin: 2vh 0 0 0;
+    }
+
+    .popular-video-title {
+      color: white;
+      font-size: 5vh;
+      font-weight: 800;
+    }
+
+    .popular-video-container {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+    }
+
+    #popular-video-banner {
+      width: 80%;
+      height: 60vh;
+      background-size: cover;
+      background-position: center;
+      transition: background-image 0.3s ease-in-out;
+    }
+
+    .popular-video-action {
+      width: 20%;
+      border: none;
+      background-color: white;
+    }
+
+    .popular-video-action-label {
+      color: black;
+      font-size: 4vh;
+      font-weight: 800;
+      writing-mode: vertical-rl;
+    }
+
+    .featured-list {
+      border-top: 0.5vh solid white;
+      border-bottom: 0.5vh solid white;
+      display: flex;
+      justify-content: center;
+      margin: 2vh 0 0 0;
+    }
+
+    .featured-list-title {
+      color: white;
+      font-size: 5vh;
+      font-weight: 800;
+    }
+
+    .featured-list-marquee {
+      color: white;
+      font-size: 2.5vh;
+      font-weight: 500;
+    }
+
+    .featured-list-container {
+      width: 100%;
+      height: 40vh;
+      display: flex;
+      flex-direction: row;
+      gap: 5vw;
+      align-items: center;
+      overflow: auto;
+    }
+
+    .featured-list-cover {
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.3 ease;
+    }
+
+    .featured-list-cover:hover {
+      transform: scale(1.03);
+    }
+
+    .featured-list-cover-img {
+      width: 80vw;
+      height: auto;
+    }
+
+    .featured-list-cover-label {
+      width: 80vw;
+      color: white;
+      background-color: #EA4335;
+      font-size: 3vh;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      border: 0.2vw solid white;
+    }
+
+    .all-video-list {
+      display: flex;
+      justify-content: center;
+      margin: 2vh 0 0 0;
+    }
+
+    .all-video-list-title {
+      color: white;
+      font-size: 5vh;
+      font-weight: 800;
+    }
+
+    .gradient-span {
+      background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(171, 211, 105, 1) 78%, rgba(237, 221, 83, 1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+
+    .all-video-container {
+      /*max-height: 85vh;*/
+      margin: 1vh 0 1vh 0;
+      padding: 0 2vw 0 2vw;
+      overflow-y: auto;
+    }
+
+    .video-cover-card {
+      width: 100%;
+      height: auto;
+      margin-top: 2vh;
+    }
+
+    .video-cover-card-img {
+      width: 100%;
+      height: auto;
+    }
+
+    .video-cover-card-title {
+      color: white;
+      font-size: 2vh;
+      font-weight: 500;
+    }
+
+    .popup-frame-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .video-frame-popup {
+      height: 70vh;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #2c2c2c;
+      padding: 20px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.6);
+      transform: translateY(100%);
+      transition: transform 0.4s ease-in-out;
+    }
+
+    .video-frame-popup:not(.hidden) {
+      transform: translateY(0);
+    }
+
+    .hidden {
+      transform: translateY(100%);
+      display: none;
+    }
+
+    .video-frame-close {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .video-frame-close-btn {
+      color: #EA4335;
+      background: none;
+      border: none;
+      font-size: 3vh;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .video-frame-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2vh;
+      padding: 1vh;
+    }
+
+    .video-frame {
+      width: 100%;
+      height: auto;
+    }
+
+    .video-frame-details {
+      display: flex;
+      flex-direction: column;
+      gap: 3vh;
+    }
+
+    .video-frame-details-title {
+      color: white;
+      font-size: 3vh;
+      font-weight: 700;
+    }
+
+    .video-frame-details-duration {
+      color: #4285F4;
+      font-size: 3vh;
+      font-weight: 700;
+    }
+
+    .video-frame-details-time {
+      color: #34A853;
+      font-size: 3vh;
+      font-weight: 700;
+    }
+
+    .video-frame-details-info {
+      color: white;
+      font-size: 2vh;
+      font-weight: 500;
+    }
+
+    .video-btn-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2vh;
+      margin: 2vh 0 2vh 0;
+    }
+
+    .button-29 {
+      align-items: center;
+      appearance: none;
+      background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+      border: 0;
+      border-radius: 6px;
+      box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-flex;
+      height: 4vh;
+      justify-content: center;
+      line-height: 1;
+      list-style: none;
+      overflow: hidden;
+      padding-left: 1vh;
+      padding-right: 1vh;
+      position: relative;
+      text-align: left;
+      text-decoration: none;
+      transition: box-shadow .15s,transform .15s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+      will-change: box-shadow,transform;
+      font-size: 2vh;
+    }
+
+    .button-29:focus {
+      box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    }
+
+    .button-29:hover {
+      box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+      transform: translateY(-2px);
+    }
+
+    .button-29:active {
+       box-shadow: #3c4fe0 0 3px 7px inset;
+       transform: translateY(2px);
+    }
+
+    .warning-container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .warning-card {
+      width: 90vw;
+      height: auto;
+      background-color: black;
+      padding-top: 5vh;
+      border: 1px solid white;
+    }
+
+    .warning-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .warning-title {
+      color: white;
+      font-size: 3vh;
+      font-weight: 700;
+    }
+
+    .warning-text {
+      color: white;
+      padding: 6vh 10vw 0 10vw;
+      font-size: 2vh;
+      line-break: 2px;
+    }
+
+    .warning-vpn {
+      color: #DAF7A6;
+      font-size: 2vh;
+      padding-left: 10vw;
+      display: flex;
+      align-items: center;
+    }
+
+    .warning-browser {
+      color: #FF5733;
+      padding-left: 10vw;
+      font-size: 2vh;
+      display: flex;
+      align-items: center;
+    }
+
+    .warning-browser-name {
+      color: #FF5733;
+      font-size: 2vh;
+    }
+
+    .warning-note, .warning-date {
+      color: gray;
+      font-size: 1.5vh;
+      padding: 1.5vh;
+    }
+
+    .warning-btn-container {
+      width: 90vw;
+      height: 5vh;
+      background-color: black;
+      padding: 1vh 0 1vh 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      border: 0px solid white;
+    }
+
+    .button-38 {
+      background-color: #FFFFFF;
+      border: 0;
+      border-radius: .5rem;
+      box-sizing: border-box;
+      color: #111827;
+      font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      font-size: .875rem;
+      font-weight: 600;
+      width: 20vw;
+      height: 4vh;
+      text-align: center;
+      text-decoration: none #D1D5DB solid;
+      text-decoration-thickness: auto;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+      cursor: pointer;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+
+    .button-38:hover {
+      background-color: rgb(249,250,251);
+    }
+
+    .button-38:focus {
+      outline: 2px solid transparent;
+      outline-offset: 2px;
+    }
+
+    .button-38:focus-visible {
+      box-shadow: none;
+    }
+
+    .site-applicable-warning {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .site-applicable-warning > img {
+      width: 42px;
+      height: 42px;
+    }
+
+    .site-applicable-warning > span {
+      max-width: 300px;
+      color: white;
+    }
+    
+    .view-more {
+      display: flex;
+      flex-direction: column;
+      gap: 1vh;
+      margin: 4vh 0 4vh 0;
+    }
+    
+    .view-more-title {
+      font-size: 2vh;
+      font-weight: 600;
+      color: grey;
+      padding-left: 4vw;
+    }
+    
+    .view-more-link {
+      width: fit-content;
+      font-size: 2vh;
+      font-weight: 500;
+      margin-left: 8vw;
+      color: white;
+      opacity: 0.9;
+      text-decoration: underline;
+    }
+   
+    .link-icon {
+      width: 10px;
+    }
+
+    footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2vh;
+      padding: 2vh;
+    }
+
+    footer > span {
+      color: gray;
+      font-size: 1.5vh;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes blinker {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    @media screen and (max-width: 420px) and (min-height: 412px) {
+      .app-container {
+        display: block;
+      }
+      .site-applicable-warning {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<main class="app-container">
+  <nav class="nav-bar">
+    <a href="#all-video-list"><span class="nav-title"><i>Isabella <span style="color: #4285F4;">de</span> <span style="color: #EA4335;">Sa</span><span style="color: #FBBC04;">n</span><span style="color: #34A853;">tos</span></i></span></a>
+  </nav>
+
+  <section id="banner-image"></section>
+  <section class="banner-loader">
+    <div class="loader"></div>
+  </section>
+
+  <article class="profile-container">
+    <section class="profile-picture">
+      <img class="profile-picture-img" src="https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/90000/90854/5694454.jpg" alt="profile-picture"/>
+    </section>
+    <section class="profile-information">
+      <span class="label">Name: <span class="label-value">Isabella de Santos</span></span>
+      <span class="label">DOB: <span class="label-value">20<sup>th</sup> Oct 1987</span></span>
+      <span class="label">Height: <span class="label-value">5' 2" (1.57m)</span></span>
+      <span class="label">Nationality: <span class="label-value">Colombian</span></span>
+      <span class="label">Type: <span class="label-value">Latino/Brown</span></span>
+      <span class="label">Official: 
+        <a href="https://m.imdb.com/name/nm6618300/bio/" target="_blank"><span style="color: #FBBC04;">Imdb</span>&#128279;</a>
+      </span>
+    </section>
+  </article>
+
+  <article class="profile-bio">
+    <p class="profile-bio-info">Isabella De Santos is an American-born adult film actress of Colombian and Peruvian decent. She started in the industry in 2014 and was nominated the same year in <span style="color: #EA4335;">A</span><span style="color: #FBBC04;">V</span><span style="color: #34A853;">N</span>'s cutest newcomer category.</p>
+  </article>
+
+  <section class="latest-video">
+    <span class="latest-video-title">BoOtY Girl</span>
+  </section>
+  <section class="latest-video-banner">
+    <span class="latest-video-label"><i>Hot Anal Latina!</i></span>
+    <span class="latest-video-action"><i class="watch-now" onclick="handleOpenVideoFrame('santos-03')">Watch Now</i></span>
+  </section>
+
+  <section class="popular-video">
+    <span class="popular-video-title">Popular</span>
+  </section>
+  <section class="popular-video-container">
+    <section id="popular-video-banner"></section>
+    <button class="popular-video-action" onclick="handleOpenVideoFrame('santos-06')">
+      <span class="popular-video-action-label">Check Out Now!!</span>
+    </button>
+  </section>
+
+  <section class="featured-list">
+    <span class="featured-list-title">Featured</span>
+  </section>
+  <marquee class="featured-list-marquee">Naughty America<span style="color: #EA4335">.com</span></marquee>
+  <section class="featured-list-container"></section>
+
+  <section id="all-video-list" class="all-video-list">
+    <span class="all-video-list-title gradient-span">Taste AsHoney</span>
+  </section>
+  <section class="all-video-container"></section>
+  <div class="video-btn-container">
+    <button class="button-29" id="loadMore">Load More</button>
+    <button class="button-29" id="loadLess" style="display: none;">Load Less</button>
+  </div>
+
+  <section id="warningpopup" class="popup-frame-container">
+    <section class="warning-container">
+      <article class="warning-card">
+        <div class="warning-content">
+          <span class="warning-title">WARNING: THIS WEBSITE IS </span>
+          <span class="warning-title">FOR ADULTS ONLY!</span>
+          <div class="warning-text">This Website is for use solely by individuals who are at least 18 years of age and have reached the age of majority or age of consent as determined by the laws of the jurisdiction from which they are accessing the Website. Accessing this Website while underage might be prohibited by law.</div>
+        </div>
+        <div class="warning-vpn">VPN/Proxy Mandatory*</div>
+        <div class="warning-browser">Recommend Browser:- &nbsp; <img width="15" height="15" src="https://img.icons8.com/color/48/brave-web-browser.png" alt="brave-web-browser"/> <a href="https://play.google.com/store/apps/details?id=com.brave.browser" class="warning-browser-name" target="_blank">Brave</a></div>
+        <div class="warning-note">
+          If you disagree with the above, click on the "Exit" button below to leave the Website.
+        </div>
+        <div id="warning-date" class="warning-date"></div>
+        <div class="warning-btn-container">
+       <button onclick="openGoogle()" class="button-38">Exit</button>
+       <button onclick="enterButton()" class="button-29">Enter 18+</button>
+      </div>
+      </article>
+    </section>
+  </section>
+  
+  <section class="view-more">
+    <sapn class="view-more-title">View More Related:</sapn>
+    <a class="view-more-link" href="https://vlog-x.github.io/mollylittlebbc/" target="_blank">
+      Molly Little Fuck's BBC
+      <img class="link-icon" alt="link" src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgMjYgMjYiIHdpZHRoPSIyNnB4IiBoZWlnaHQ9IjI2cHgiPjxwYXRoIGQ9Ik0gMTIuMzEyNSAwIEMgMTAuNDI1NzgxIDAuMDAzOTA2MjUgMTAuNTY2NDA2IDAuNTA3ODEzIDExLjU2MjUgMS41IEwgMTQuNzgxMjUgNC43MTg3NSBMIDkuMjUgMTAuMjUgQyA4LjEwNTQ2OSAxMS4zOTQ1MzEgOC4xMDU0NjkgMTMuMjMwNDY5IDkuMjUgMTQuMzc1IEwgMTEuNjg3NSAxNi43ODEyNSBDIDEyLjgzMjAzMSAxNy45MjE4NzUgMTQuNjY3OTY5IDE3LjkyNTc4MSAxNS44MTI1IDE2Ljc4MTI1IEwgMjEuMzQzNzUgMTEuMjgxMjUgTCAyNC41IDE0LjQzNzUgQyAyNS42MDE1NjMgMTUuNTM5MDYzIDI2IDE1LjU3NDIxOSAyNiAxMy42ODc1IEwgMjYgMy40MDYyNSBDIDI2IC0wLjAzMTI1IDI2LjAzNTE1NiAwIDIyLjU5Mzc1IDAgWiBNIDQuODc1IDUgQyAyLjE4MzU5NCA1IDAgNy4xODM1OTQgMCA5Ljg3NSBMIDAgMjEuMTI1IEMgMCAyMy44MTY0MDYgMi4xODM1OTQgMjYgNC44NzUgMjYgTCAxNi4xMjUgMjYgQyAxOC44MTY0MDYgMjYgMjEgMjMuODE2NDA2IDIxIDIxLjEyNSBMIDIxIDE0Ljc1IEwgMTggMTcuNzUgTCAxOCAyMS4xMjUgQyAxOCAyMi4xNjAxNTYgMTcuMTYwMTU2IDIzIDE2LjEyNSAyMyBMIDQuODc1IDIzIEMgMy44Mzk4NDQgMjMgMyAyMi4xNjAxNTYgMyAyMS4xMjUgTCAzIDkuODc1IEMgMyA4LjgzOTg0NCAzLjgzOTg0NCA4IDQuODc1IDggTCA4LjMxMjUgOCBMIDExLjMxMjUgNSBaIi8+PC9zdmc+"/>
+    </a>
+  </section>
+
+  <footer>
+    <span>© <span id="copyright-year"></span> All rights Reserved.</span>
+    <span>All performers appearing on this website are 18 years or older.</span>
+    <span>All video, images, design, graphics are copyright.</span>
+    <span>Site type: Blog</span>
+    <span>Developer: Syntax Error&lt;/&gt;</span>
+    <span>Powered by: <a href="https://www.naughtyamerica.com/pornstar/isabella-de-santos" target="_blank">Naught America.com</a></span>
+  </footer>
+</main>
+
+<section id="popupContainer" class="popup-frame-container hidden">
+    <section id="videoFramePopup" class="video-frame-popup hidden">
+      <section class="video-frame-close">
+        <button id="videoFrameClose" class="video-frame-close-btn"><img width="25" height="25" src="https://img.icons8.com/fluency/48/delete-sign.png" alt="delete-sign"/></button>
+      </section>
+    <article class="video-frame-card"></article>
+  </section>
+</section>
+
+<section class="site-applicable-warning">
+  <img src="https://img.icons8.com/fluency/48/shake-phone.png" alt="phone"/>
+  <span>This site is applicable only for the mobile screen under 420px.</span>
+</section>
+
+  <script>
+    // Array of Data URLs
+    const bannerimages = [
+      'https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/90000/90101/5634189.jpg',
+      'https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/83000/83663/5100783.jpg',
+      'https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/66000/66581/3729977.jpg',
+      'https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/65000/65451/3646663.jpg',
+      'https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/90000/90854/5694479.jpg',
+      'https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/142000/142455/10134300.jpg',
+      'https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/94000/94772/6024497.jpg',
+      'https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/111000/111042/7319248.jpg',
+    ];
+
+    const popularimages = [
+      'https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/83000/83663/5100747.jpg',
+      'https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/83000/83663/5100748.jpg',
+      'https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/83000/83663/5100753.jpg',
+      ];
+
+    const featuredlist = [
+      {"title": "Hairy Pussy at Bar", "cover": "https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/94000/94772/6024468.jpg", "id": "santos-12"},
+      {"title": "Hot Friend", "cover": "https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/90000/90854/5694433.jpg", "id": "santos-08"}
+      ];
+
+    const Isabellavideolist = [
+      {"id": "santos-01", "title": "Isabella is The Boss", "cover": "https://x.uuu.cam/pics/spizoo/isabella-de-santos/bubbly-petite-xxxiamge/isabella-de-santos-6.jpg", "link": "https://bigfuck.tv/embed/792925", "duration": "25:44", "videoinfo": `Boss Lady fucks the Poor Employe.`},
+      {"id": "santos-02", "title": "Funsize Is What They Call Me", "cover": "https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/98000/98245/6311386.jpg", "link": "https://bigfuck.tv/embed/18775541", "duration": "35:53", "videoinfo": `Bruno is a music producer from Atlanta and he was in Miami during Spring Break from some WMC events. Time was short, and he had a nut that he needed to bust with the quickness, so he hired sexy Isabella to spend some quality time with him. Her 5'1, half Colombian/ half Peruvian, latina body in a sexy sports theme outfit had our boy drooling; and it was time for some action! Isabella worked Brunos rock hard dick on the couch and took his jizz all over her face like the pro she is. At the end of it all, she said it was the best money she's made all week!`},
+      {"id": "santos-03", "title": "Hot Anal Latina", "cover": "https://x.uuu.cam/pics/hardx/isabella-de-santos/some-cowgirl-mobi-porno/isabella-de-santos-8.jpg", "link": "https://bigfuck.tv/embed/818752", "duration": "32:09", "videoinfo": `A Colombia Teen Oiled Up Fucked with Big Dick in Her Tight Little Ass Hole.`},
+      {"id": "santos-04", "title": "Spicy Delights", "cover": "https://x.uuu.cam/pics/clubsandy/isabella-de-santos-ralph-long/votoxxx-latina-teacher-pantychery/isabella-de-santos-ralph-long-5.jpg", "link": "https://bigfuck.tv/embed/522762", "duration": "31:32", "videoinfo": `Isabella is like the best chili. Not everyone can handle her, but for those with a refined taste and the stamina to handle her wildness, she is one of the most stunning vixen ever. Apart from tastes, she is smoking hot and she knows how to pleasure a guy... and most importantly, she loves the cock, more than anything.`},
+      {"id": "santos-05", "title": "Latin Fantasies", "cover": "https://x.uuu.cam/pics/penthousegold/isabella-desantos-toni-ribas/sexbabe-centerfold-hbrowse/isabella-desantos-toni-ribas-11.jpg", "link": "https://bigfuck.tv/embed/839060", "duration": "21:14", "videoinfo": `Ethnicity Latina Fullfill her Lust.`},
+      {"id": "santos-06", "title": "All Anal Fuck Day", "cover": "https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/83000/83663/5100779.jpg", "link": "https://bigfuck.tv/embed/19011689", "duration": "31:40", "videoinfo": `Spend the day poolside with Isabella De Santos, as this frisky Latina splashes around the water and seduces you with her perfect curves shined up with oil, and every square inch of her glistening. Watch Isabella twerking the water with her juicy ass, splashing around in the pool, and teasing your eyes with her stunning Latina body. When she got her hands on his big dick, she sucked him off and rubbed it between her plump butt cheeks. After she'd worked Keiran to a frenzy, they jumped straight to anal sex. Watch how Keiran stretched out Isabella as he nailed her tight asshole until she orgasmed hard.`},
+      {"id": "santos-07", "title": "Isabella Gets A Jizz Covered Bush", "cover": "https://pbs.twimg.com/media/COGMxJlUkAApR3-.jpg:large", "link": "https://bigfuck.tv/embed/343426", "duration": "10:00", "videoinfo": `Isabella is so seductive and beautiful as she moves for the camera in her sexy lingerie and stockings. She shows off her amazing, hairy bush that Ramon just can't wait to get his mouth on. He licks her furry snatch, making her all wet and ready for his love muscle to slip inside. He fucks her tight hole with breaks along the way for her to gobble and stroke his thick boner. He slides back inside her pussy, pumping it hard until he lands a massive load all over her curly pubes. `},
+      {"id": "santos-08", "title": "My Sister's Hot Friend", "cover": "https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/90000/90854/5694471.jpg", "link": "https://streamtape.com/e/KqA61Adzb6C03aQ/", "duration": "31:31", "videoinfo": `Isabella de Santos friend fucked her boyfriend behind her back, now she's looking to fuck her friend's brother!`},
+      {"id": "santos-09", "title": "Special Delivery", "cover": "https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/99000/99149/6380212.jpg", "link": "https://bigfuck.tv/embed/840194", "duration": "10:01", "videoinfo": `Isabella De Santos is a woman who knows what she wants, and knows exactly how to get it. When a sexy delivery man shows up at her office, she does a little more than sign for the package, she takes it out and strokes it too! Isabella takes that delivery dick deep inside her waiting wet pussy, legs quivering with the erotic excitement of a fantasy come to life. Live out Isabella's passion and pleasure one thrust as a time as Ryan plunges deep inside her and she rides him all the way to extacy!`},
+      {"id": "santos-10", "title": "Colombia Hotie Gets A MouthFull", "cover": "https://x.uuu.cam/pics/airerose/isabella-de-santos-jmac/eastern-latina-porn-photos/isabella-de-santos-jmac-19.jpg", "link": "https://bigfuck.tv/embed/611484", "duration": "19:35", "videoinfo": `She is More then a CoCo`},
+      {"id": "santos-11", "title": "Escort For The Wife", "cover": "https://x.uuu.cam/pics/21sextury/isabella-de-santos/august-cowgirl-hdsex/isabella-de-santos-11.jpg", "link": "https://bigfuck.tv/embed/831531", "duration": "09:08", "videoinfo": `Not sure if we would be so generous but we really admire Isabella's husband who paid good money to an escort guy to entertain his wife... in many-many joyful ways Isabella wants. He doesn't even bother himself with the fact that Isabella's tight pussy will be full with the escort guy's big cock... what more, he may even enjoy his wife's pleasure.`},
+      {"id": "santos-12", "title": "Isabella Fucking in the Bar with Her Hairy Pussy.", "cover": "https://pics-storage-1.pornhat.com/contents/albums/main/1920x1080/94000/94772/6024502.jpg", "link": "https://streamtape.com/e/3qxVPe6mPJSDvZ/", "duration": "34:04", "videoinfo": `Isabella de Santos is hanging out by the pool planning her next party when she notices the new bartender that her husband hired. He's kind of cute. Seeing as her husband is never home to please her, Isabella jumps at the chance to bang the new bartender.`},
+      {"id": "santos-13", "title": "Show Me What You Got", "cover": "https://x.uuu.cam/pics/twistys/isabella-de-santos/hdef-kissing-movie/isabella-de-santos-6.jpg", "link": "https://bigfuck.tv/embed/486617", "duration": "08:00", "videoinfo": `Fully Skilled Isabella to Get Some Fuck.`}];
+    let bannerImageIndex = 0;
+    let popularImageIndex = 0;
+    let videoListCardIndex = 0;
+    const videoCardSize = 3;
+
+    const today = new Date();
+    const date = today.getDate();
+    const monthIndex = today.getMonth();
+    const year = today.getFullYear();
+    const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const monthName = monthNames[monthIndex];
+
+    const banner = document.getElementById('banner-image');
+    const popular = document.getElementById('popular-video-banner');
+    const featuredlistcontainer = document.getElementsByClassName('featured-list-container')[0];
+    const allvideolistcontainer = document.getElementsByClassName('all-video-container')[0];
+    const popupContainer = document.getElementById('popupContainer');
+    const warningpopup = document.getElementById('warningpopup');
+    const videoFramePopup = document.getElementById('videoFramePopup');
+    const videoFrameClose = document.getElementById('videoFrameClose');
+    const video = document.getElementById('video-frame');
+    const videoframecard = document.getElementsByClassName('video-frame-card')[0];
+    const loadMoreBtn = document.getElementById('loadMore');
+    const loadLessBtn = document.getElementById('loadLess');
+    const warningPopupDate = document.getElementById('warning-date');
+    const copyrightYear = document.getElementById('copyright-year');
+
+    function changeBackground() {
+      banner.style.backgroundImage = `url(${bannerimages[bannerImageIndex]})`;
+
+      popular.style.backgroundImage = `url(${popularimages[popularImageIndex]})`;
+
+      bannerImageIndex = (bannerImageIndex + 1) % bannerimages.length;
+
+      popularImageIndex = (popularImageIndex + 1) % popularimages.length;
+    }
+
+    function pushElement() {
+      let featuredlistcard = featuredlist.map((details) => {
+        return `<article class="featured-list-cover" onclick="handleOpenVideoFrame('${details?.id}')"><img class="featured-list-cover-img" src="${details?.cover}" alt="featured-list-cover" /><span class="featured-list-cover-label">${details?.title}</span></article>`}).join('');
+      featuredlistcontainer.innerHTML = featuredlistcard;
+      copyrightYear.innerHTML = `${year}`;
+      warningPopupDate.innerHTML = `Date: ${monthName + " " + date + ", " + year}`
+    }
+
+    function pushVideoCard() {
+      let allvideolistcard = Isabellavideolist.slice(0, videoListCardIndex).map((details) => {
+        return `<article class="video-cover-card" onclick="handleOpenVideoFrame('${details?.id}')"><img class="video-cover-card-img" src="${details?.cover}" alt="video-cover-card-img" /><span class="video-cover-card-title">${details?.title}</span></article>`}).join('');
+        allvideolistcontainer.innerHTML = allvideolistcard;
+      if (videoListCardIndex >= Isabellavideolist.length) {
+        loadMoreBtn.style.display = 'none';
+        loadLessBtn.style.display = 'inline-block';
+      } else {
+        loadMoreBtn.style.display = 'inline-block';
+        loadLessBtn.style.display = videoListCardIndex > 0 ? 'inline-block' : 'none';
+      }
+    }
+
+    function loadMore() {
+      videoListCardIndex = Math.min(videoListCardIndex + videoCardSize, Isabellavideolist.length);
+      pushVideoCard();
+    }
+
+    function loadLess() {
+      videoListCardIndex = Math.max(videoListCardIndex - videoCardSize, videoCardSize);
+      pushVideoCard();
+    }
+
+    function handleOpenVideoFrame(targetId) {
+
+      videoFramePopup.classList.remove('hidden');
+      popupContainer.classList.remove('hidden');
+
+      let videoframecardelement = Isabellavideolist.filter((filter) => {
+        return filter.id === targetId;
+      }).map((details) => {
+        return `<iframe id="video-frame" class="video-frame" src="${details?.link}" frameborder="0" allowfullscreen></iframe><section class="video-frame-details"><span class="video-frame-details-title">${details?.title}</span><span class="video-frame-details-duration">Duration: <span class="video-frame-details-time">${details?.duration}</span></span><div class="video-frame-details-info" title='${details?.videoinfo}'>${details?.videoinfo.slice(0, 450)}...</div></section>`
+      }).join('');
+      videoframecard.innerHTML = videoframecardelement;
+    };
+
+    videoFrameClose.onclick = () => {
+      videoFramePopup.classList.add('hidden');
+      popupContainer.classList.add('hidden');
+      videoframecard.innerHTML = "No Data Found!"
+    };
+
+    function enterButton() {
+      warningpopup.classList.add('hidden');
+      sessionStorage.setItem('Isabella-de-santos', true);
+    }
+
+    function openGoogle() {
+      window.open("https://www.google.com", "_blank");
+    }
+
+    function warningOnload() {
+      let validate = sessionStorage.getItem('Isabella-de-santos');
+      if(validate){
+        warningpopup.classList.add('hidden');
+      }
+    }
+
+    videoListCardIndex = videoCardSize;
+
+    pushElement();
+    pushVideoCard();
+
+    loadMoreBtn.addEventListener('click', loadMore);
+    loadLessBtn.addEventListener('click', loadLess);
+
+    setInterval(changeBackground, 2000);
+    changeBackground();
+    warningOnload();
+
+  </script>
+
+</body>
+</html>
